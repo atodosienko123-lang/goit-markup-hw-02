@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #2e2f42;
+  line-height: 150%;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+.logo {
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 117%;
+  font-size: 18px;
+  color: #2e2f42;
+}
+.span-blue {
+  color: #4d5ae5;
+}
