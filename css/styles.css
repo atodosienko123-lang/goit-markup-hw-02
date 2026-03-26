@@ -130,6 +130,9 @@ button:hover {
   background: #f4f4fd;
 }
 
+.team-title-item {
+  background: #fff;
+}
 .team-title {
   text-align: center;
 }
