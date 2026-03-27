@@ -89,14 +89,12 @@ ol {
 }
 
 .hero-button {
-  border-width: 0px;
   background: #4d5ae5;
   cursor: pointer;
 }
 .hero-button:focus,
 .hero-button:hover {
   background: #404bbf;
-  border-width: 0px;
   cursor: pointer;
 }
 
