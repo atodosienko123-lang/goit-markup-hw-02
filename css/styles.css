@@ -2,14 +2,14 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #2e2f42;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 a {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   color: #2e2f42;
 }
 
@@ -20,11 +20,12 @@ ol {
 }
 
 .header-logo {
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
-  line-height: 117%;
+  line-height: 1.16667;
   font-size: 18px;
-  color: #30422e;
+  color: #2e2f42;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -43,6 +44,7 @@ ol {
   color: #2e2f42;
   text-align: top left;
 }
+.header-link:focus,
 .header-link:hover {
   color: #404bbf;
 }
@@ -55,14 +57,12 @@ ol {
   color: #2e2f42;
 }
 
+.header-link-studio:focus,
 .header-link-studio:hover {
   color: #404bbf;
 }
 .header-link-studio:active {
   color: #404bbf;
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
   background: #404bbf;
 }
 .contacts-item-link {
@@ -75,6 +75,7 @@ ol {
   color: #434455;
 }
 
+.contacts-item-link:focus,
 .contacts-item-link:hover {
   color: #404bbf;
 }
@@ -96,6 +97,7 @@ button {
   background: #4d5ae5;
   cursor: pointer;
 }
+button:focus,
 button:hover {
   background: #404bbf;
   border-width: 0px;
@@ -134,6 +136,12 @@ button:hover {
   background: #fff;
 }
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
   text-align: center;
 }
 
@@ -185,6 +193,7 @@ button:hover {
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
