@@ -38,7 +38,6 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: top left;
 }
 .header-link:focus,
 .header-link:hover {
@@ -85,7 +84,6 @@ ol {
   line-height: 1.07143;
   letter-spacing: 0.02em;
   color: #fff;
-  text-align: center;
 }
 
 .hero-button {
