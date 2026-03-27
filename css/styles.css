@@ -7,10 +7,6 @@ body {
 
 a {
   text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #2e2f42;
 }
 
 ul,
@@ -92,19 +88,19 @@ ol {
   text-align: center;
 }
 
-button {
+.hero-button {
   border-width: 0px;
   background: #4d5ae5;
   cursor: pointer;
 }
-button:focus,
-button:hover {
+.hero-button:focus,
+.hero-button:hover {
   background: #404bbf;
   border-width: 0px;
   cursor: pointer;
 }
 
-.hero-button {
+.hero-button[type="button"] {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
